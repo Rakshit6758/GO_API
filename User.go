@@ -20,7 +20,7 @@ type User struct {
 	UserName    string `json:"UserName" binding:"required"`
 	DateOfBirth string `json:"DateOfBirth" binding:"required"`
 	PhoneNumber int    `json:"PhoneNumber" binding:"required"`
-	EmailId     string `json:"EmailId " binding:"required"`
+	EmailId     string `json:"EmailId" binding:"required"`
 }
 
 // Method to initialize the database and to enable the auto migration
